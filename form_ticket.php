@@ -15,7 +15,7 @@ button:hover { background:#45a049; }
 <body>
 <div class="form-container">
 <h2>Créer un billet EvenPass</h2>
-<form action="create_ticket_form.php" method="POST">
+<form action="index.php" method="POST">
     <input type="text" name="nom" placeholder="Nom complet" required>
     <input type="text" name="event" placeholder="Nom de l'événement" required>
     <input type="text" name="place" placeholder="Place / Numéro de siège" required>
